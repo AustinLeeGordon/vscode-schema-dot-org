@@ -25,9 +25,39 @@
             "}"
         ]
     },
-    "Product Page Schema": {
-        "prefix": "product-page-schema",
-        "description": "Product Page Schema",
+    "Product Aggregate Offer Schema": {
+        "prefix": "product-aggregate-offer-schema",
+        "description": "Product Aggregate Offer Schema",
+        "body": [
+            "{",
+            "\t\"@context\": \"http://schema.org\",",
+            "\t\"@type\": \"Product\",",
+            "\t\"name\": \"${1:product-name}\",",
+            "\t\"image\": [",
+            "\t\t\"${2:product-images}\"",
+            "\t],",
+            "\t\"brand\": {",
+            "\t\t\"@type\": \"Thing\",",
+            "\t\t\"name\": \"${3:product-brand}\"",
+            "\t},",
+            "\t\"aggregateRating\" : {",
+            "\t\t\"@type\": \"AggregateRating\",",
+            "\t\t\"ratingValue\": \"${4:rating-value}\",",
+            "\t\t\"reviewCount\": \"${5:review-count}\"",
+            "\t},",
+            "\t\"offers\": {",
+            "\t\t\"@type\": \"AggregateOffer\",",
+            "\t\t\"lowPrice\": \"${6:low-price}\",",
+            "\t\t\"highPrice\": \"${7:high-price}\",",
+            "\t\t\"priceCurrency\": \"${8:USD}\",",
+            "\t\t\"offerCount\": \"${9:offer-count}\",",
+            "\t}",
+            "}"
+        ]
+    },
+    "Product Schema": {
+        "prefix": "product-schema",
+        "description": "Product Schema",
         "body": [
             "{",
             "\t\"@context\": \"http://schema.org\",",
@@ -70,36 +100,6 @@
             "<script type=\"application/ld+json\">",
             "\t${1}",
             "</script>"
-        ]
-    },
-    "Shopping Aggregator Page Schema": {
-        "prefix": "shopping-aggregator-page-schema",
-        "description": "Shopping Aggregator Page Schema",
-        "body": [
-            "{",
-            "\t\"@context\": \"http://schema.org\",",
-            "\t\"@type\": \"Product\",",
-            "\t\"name\": \"${1:product-name}\",",
-            "\t\"image\": [",
-            "\t\t\"${2:product-images}\"",
-            "\t],",
-            "\t\"brand\": {",
-            "\t\t\"@type\": \"Thing\",",
-            "\t\t\"name\": \"${3:product-brand}\"",
-            "\t},",
-            "\t\"aggregateRating\" : {",
-            "\t\t\"@type\": \"AggregateRating\",",
-            "\t\t\"ratingValue\": \"${4:rating-value}\",",
-            "\t\t\"reviewCount\": \"${5:review-count}\"",
-            "\t},",
-            "\t\"offers\": {",
-            "\t\t\"@type\": \"AggregateOffer\",",
-            "\t\t\"lowPrice\": \"${6:low-price}\",",
-            "\t\t\"highPrice\": \"${7:high-price}\",",
-            "\t\t\"priceCurrency\": \"${8:USD}\",",
-            "\t\t\"offerCount\": \"${9:offer-count}\",",
-            "\t}",
-            "}"
         ]
     }
 }
