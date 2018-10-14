@@ -1,0 +1,54 @@
+{
+  "name": "vscode-schema-dot-org",
+  "version": "1.0.0",
+  "description": "Code snippets for Schema.org schemas",
+  "displayName": "Schema.org code snippets",
+  "keywords": [
+    "json-ld",
+    "schema.org",
+    "snippets",
+    "vscode",
+    "vscode-extension"
+  ],
+  "author": {
+    "name": "Austin Gordon",
+    "email": "agordon@hutsoninc.com",
+    "url": "https://github.com/AustinLeeGordon"
+  },
+  "publisher": "austinleegordon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AustinLeeGordon/vscode-schema-dot-org"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
