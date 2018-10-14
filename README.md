@@ -22,6 +22,7 @@ Type part of a snippet and press `enter` or `tab`.
 | Snippet | Content |
 | ------- | ------- |
 | `breadcrumb-list-schema` | Breadcrumb List Schema ([Google Guide](https://developers.google.com/search/docs/data-types/breadcrumb), [Schema.org Reference](https://schema.org/BreadcrumbList)) |
+| `job-posting-schema` | Job Posting Schema ([Google Guide](https://developers.google.com/search/docs/data-types/job-posting), [Schema.org Reference](https://schema.org/JobPosting)) |
 | `product-aggregate-offer-schema` | Product Aggregate Offer Schema ([Google Guide](https://developers.google.com/search/docs/data-types/product), [Schema.org Reference](https://schema.org/AggregateOffer)) |
 | `product-schema` | Product Schema ([Google Guide](https://developers.google.com/search/docs/data-types/product), [Schema.org Reference](https://schema.org/Product)) |
 

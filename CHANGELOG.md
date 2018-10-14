@@ -1,14 +1,20 @@
+<a name="1.0.3"></a>
+
+## 1.0.3 (2018-10-14)
+
+* Added Snippet: `job-posting-schema`
+
 <a name="1.0.2"></a>
 
 ## 1.0.2 (2018-10-14)
 
-* Added CHANGELOG.md
+* Added [CHANGELOG.md](CHANGELOG.md)
 
 <a name="1.0.1"></a>
 
 ## 1.0.1 (2018-10-14)
 
-* Updated README.md
+* Updated [README.md](README.md)
 * Changed `shopping-aggregator-page-schema` to `product-aggregate-offer-schema`
 
 <a name="1.0.0"></a>
