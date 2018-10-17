@@ -1,3 +1,11 @@
+<a name="1.0.4"></a>
+
+## 1.0.4 (2018-10-17)
+
+* Added Snippet: `corporate-contact-schema`
+* Added Snippet: `sitelinks-searchbox-schema`
+* Updated [README.md](README.md)
+
 <a name="1.0.3"></a>
 
 ## 1.0.3 (2018-10-14)

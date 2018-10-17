@@ -1,6 +1,6 @@
 # VS Code Schema.org Snippets
 
-This extension includes [VS Code](https://code.visualstudio.com/) snippets for implementing [Schema.org](https://www.schema.org/) JSON-LD.
+This extension includes [VS Code](https://code.visualstudio.com/) snippets for implementing [Schema.org](https://www.schema.org/) JSON-LD. Currently working on snippets following the [Google Structured Data Guide](https://developers.google.com/search/docs/guides/intro-structured-data). Snippets include properties that are both required and recommended by Google.
 
 ## Installation
 
@@ -22,9 +22,12 @@ Type part of a snippet and press `enter` or `tab`.
 | Snippet | Content |
 | ------- | ------- |
 | `breadcrumb-list-schema` | Breadcrumb List Schema ([Google Guide](https://developers.google.com/search/docs/data-types/breadcrumb), [Schema.org Reference](https://schema.org/BreadcrumbList)) |
+| `corporate-contact-schema` | Corporate Contact Schema ([Google Guide](https://developers.google.com/search/docs/data-types/corporate-contact)) |
 | `job-posting-schema` | Job Posting Schema ([Google Guide](https://developers.google.com/search/docs/data-types/job-posting), [Schema.org Reference](https://schema.org/JobPosting)) |
 | `product-aggregate-offer-schema` | Product Aggregate Offer Schema ([Google Guide](https://developers.google.com/search/docs/data-types/product), [Schema.org Reference](https://schema.org/AggregateOffer)) |
 | `product-schema` | Product Schema ([Google Guide](https://developers.google.com/search/docs/data-types/product), [Schema.org Reference](https://schema.org/Product)) |
+| `script-json-ld` | JSON-LD Script Tag |
+| `sitelinks-searchbox-schema` | Sitelinks Searchbox Schema ([Google Guide](https://developers.google.com/search/docs/data-types/sitelinks-searchbox), [Schema.org Reference](https://schema.org/WebSite)) |
 
 ## Authors
 

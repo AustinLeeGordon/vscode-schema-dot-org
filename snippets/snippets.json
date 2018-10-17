@@ -25,6 +25,29 @@
             "}"
         ]
     },
+    "Corporate Contact Schema": {
+        "prefix": "corporate-contact-schema",
+        "description": "Corporate Contact Schema",
+        "body": [
+            "{",
+            "\t\"@context\": \"http://schema.org\",",
+            "\t\"@type\": \"Organization\",",
+            "\t\"url\": \"${1:website-url}\",",
+            "\t\"contactPoint\": [{",
+            "\t\t\"@type\": \"ContactPoint\",",
+            "\t\t\"telephone\": \"${2:+1-234-567-8910}\",",
+            "\t\t\"contactType\": \"${3|customer support,technical support,billing support,bill payment,sales,reservations,credit card support,emergency,baggage tracking,roadside assistance,package tracking|}\",",
+            "\t\t\"contactOption\": \"${4|TollFree,HearingImpairedSupported|}\",",
+            "\t\t\"areaServed\": [",
+            "\t\t\t\"${5:US}\"",
+            "\t\t],",
+            "\t\t\"availableLanguage\": [",
+            "\t\t\t\"${6:English}\"",
+            "\t\t]",
+            "\t}]",
+            "}"
+        ]
+    },
     "Job Posting Schema": {
         "prefix": "job-posting-schema",
         "description": "Job Posting Schema",
@@ -146,6 +169,22 @@
             "<script type=\"application/ld+json\">",
             "\t${1}",
             "</script>"
+        ]
+    },
+    "Sitelinks Searchbox Schema": {
+        "prefix": "sitelinks-searchbox-schema",
+        "description": "Sitelinks Searchbox Schema",
+        "body": [
+            "{",
+            "\t\"@context\": \"http://schema.org\",",
+            "\t\"@type\": \"WebSite\",",
+            "\t\"url\": \"${1:website-url}\",",
+            "\t\"potentialAction\": {",
+            "\t\t\"@type\": \"SearchAction\",",
+            "\t\t\"target\": \"${2:https://query.example.com/search}?q={search_term_string}\",",
+            "\t\t\"query-input\": \"required name=search_term_string\"",
+            "\t}",
+            "}"
         ]
     }
 }
