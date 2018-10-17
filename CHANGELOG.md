@@ -1,3 +1,9 @@
+<a name="1.0.6"></a>
+
+## 1.0.6 (2018-10-17)
+
+* Updated spelling and grammar mistakes in [README.md](README.md)
+
 <a name="1.0.5"></a>
 
 ## 1.0.5 (2018-10-17)
