@@ -1,10 +1,17 @@
+<a name="1.0.5"></a>
+
+## 1.0.5 (2018-10-17)
+
+* Added Snippets: `event-schema`, `recipe-schema`, `video-schema`
+* Updated Snippet: `script-json-ld`
+* Updated package description and usage in [README.md](README.md)
+
 <a name="1.0.4"></a>
 
 ## 1.0.4 (2018-10-17)
 
-* Added Snippet: `corporate-contact-schema`
-* Added Snippet: `sitelinks-searchbox-schema`
-* Updated [README.md](README.md)
+* Added Snippets: `corporate-contact-schema`, `sitelinks-searchbox-schema`
+* Updated package description in [README.md](README.md)
 
 <a name="1.0.3"></a>
 
