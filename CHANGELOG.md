@@ -1,3 +1,10 @@
+<a name="2.0.4"></a>
+
+## 2.0.4 (2018-12-1)
+
+* Removed unnecessary quotation mark replacer
+* Add tests
+
 <a name="2.0.3"></a>
 
 ## 2.0.3 (2018-12-1)
