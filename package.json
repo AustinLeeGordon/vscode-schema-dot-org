@@ -1,6 +1,6 @@
 {
   "name": "vscode-schema-dot-org",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Code snippets for Schema.org schemas",
   "displayName": "Schema.org code snippets",
   "scripts": {
