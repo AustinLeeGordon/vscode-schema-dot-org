@@ -58,6 +58,7 @@
   },
   "devDependencies": {
     "@austinleegordon/iso-4217": "^1.0.1",
-    "bluebird": "^3.5.3"
+    "bluebird": "^3.5.3",
+    "i18n-iso-countries": "^3.7.8"
   }
 }

@@ -39,7 +39,7 @@
             "\t\t\"contactType\": \"${3|customer support,technical support,billing support,bill payment,sales,reservations,credit card support,emergency,baggage tracking,roadside assistance,package tracking|}\",",
             "\t\t\"contactOption\": \"${4|TollFree,HearingImpairedSupported|}\",",
             "\t\t\"areaServed\": [",
-            "\t\t\t\"${5:US}\"",
+            "\t\t\t\"${5:|<%currencyCodes2%>|}\"",
             "\t\t],",
             "\t\t\"availableLanguage\": [",
             "\t\t\t\"${6:English}\"",
