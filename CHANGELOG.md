@@ -1,3 +1,9 @@
+<a name="2.0.6"></a>
+
+## 2.0.6 (2018-12-1)
+
+* Updated [.vscodeignore](.vscodeignore)
+
 <a name="2.0.5"></a>
 
 ## 2.0.5 (2018-12-1)
