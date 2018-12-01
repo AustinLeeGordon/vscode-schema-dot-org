@@ -1,3 +1,10 @@
+<a name="2.0.5"></a>
+
+## 2.0.5 (2018-12-1)
+
+* Added Travis CI
+* Added badges to [README.md](README.md)
+
 <a name="2.0.4"></a>
 
 ## 2.0.4 (2018-12-1)

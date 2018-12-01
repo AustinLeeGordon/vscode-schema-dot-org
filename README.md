@@ -1,5 +1,7 @@
 # VS Code Schema.org Snippets
 
+[![Visual Studio Marketplace Version](https://vsmarketplacebadge.apphb.com/version/austinleegordon.vscode-schema-dot-org.svg)](https://marketplace.visualstudio.com/items?itemName=austinleegordon.vscode-schema-dot-org) [![Build Status](https://travis-ci.com/AustinLeeGordon/vscode-schema-dot-org.svg?branch=master)](https://travis-ci.com/AustinLeeGordon/vscode-schema-dot-org)
+
 This extension includes [VS Code](https://code.visualstudio.com/) snippets for implementing [Schema.org](https://www.schema.org/) JSON-LD. Currently working on snippets following the [Google Structured Data Guide](https://developers.google.com/search/docs/guides/intro-structured-data). Snippets include properties that are both required and recommended by Google. Structured data is very flexible, and certain optional properties may have undesired results. Follow the [Google Structured Data Guide](https://developers.google.com/search/docs/guides/intro-structured-data) to ensure the intended use.
 
 ## Installation
