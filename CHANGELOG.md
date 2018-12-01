@@ -1,3 +1,9 @@
+<a name="2.0.2"></a>
+
+## 2.0.2 (2018-12-1)
+
+* Added [Contributing](README.md#Contributing) section to [README.md](README.md)
+
 <a name="2.0.1"></a>
 
 ## 2.0.1 (2018-12-1)

@@ -32,6 +32,55 @@ Type part of a snippet and press `enter` or `tab`. If tab completion is disabled
 | `sitelinks-searchbox-schema` | Sitelinks Searchbox Schema ([Google](https://developers.google.com/search/docs/data-types/sitelinks-searchbox), [Schema.org](https://schema.org/WebSite)) |
 | `video-schema` | Video Schema ([Google](https://developers.google.com/search/docs/data-types/video), [Schema.org](https://schema.org/VideoObject)) |
 
+## Contributing
+
+### Overview
+
+The project utilizes a simple build system where varaibles can be defined in the `src/snippets.json` file and injected on build. Variables make it easier to add and maintain things such as ISO standards for tab completion suggestions.
+
+#### Example:
+
+```json
+{
+// ...
+    "Schema Name": {
+        "prefix": "schema-name",
+        "description": "Schema Description",
+        "body": [
+            "{",
+            "\t\"@context\": \"http://schema.org\",",
+            "\t\"@type\": \"SchemaName\",",
+            "\t\"examplekey\": \"${1:|<%example%>|}\"", // <%example%> will be replaced on build
+            "}"
+        ]
+    },
+// ...
+}
+```
+
+Defining the variable in the `src/templates.js` file:
+
+```js
+// ...
+function getTemplates() {
+
+    // ...
+
+    // Example
+    let example = ["Suggestion 1", "Suggestion 2", "Suggestion 3"];
+    example = example.join(','); // Format
+
+    return {
+        example, // The returned key must be the same as the variable name used in the snippet: <%example%>
+        // ...
+    };
+}
+
+module.exports = getTemplates();
+```
+
+Now whenever you run `npm run build`, the renderer will replace every occurrence of `<%example%>` with `Suggestion 1,Suggestion 2,Suggestion 3` and export the file to the `snippets/` directory.
+
 ## License
 
 MIT © [Austin Gordon](https://www.austinleegordon.com)
