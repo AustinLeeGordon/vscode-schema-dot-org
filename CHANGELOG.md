@@ -1,3 +1,9 @@
+<a name="2.0.3"></a>
+
+## 2.0.3 (2018-12-1)
+
+* Fixed syntax highlighting on Contributing example
+
 <a name="2.0.2"></a>
 
 ## 2.0.2 (2018-12-1)

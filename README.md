@@ -40,7 +40,7 @@ The project utilizes a simple build system where varaibles can be defined in the
 
 #### Example:
 
-```json
+```js
 {
 // ...
     "Schema Name": {
