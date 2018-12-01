@@ -1,3 +1,9 @@
+<a name="2.0.1"></a>
+
+## 2.0.1 (2018-12-1)
+
+* Added ISO 3166 currency codes to `corporate-contact-schema`
+
 <a name="2.0.0"></a>
 
 ## 2.0.0 (2018-12-1)
