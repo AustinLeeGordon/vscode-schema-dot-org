@@ -3,9 +3,16 @@
   "version": "1.0.6",
   "description": "Code snippets for Schema.org schemas",
   "displayName": "Schema.org code snippets",
+  "scripts": {
+    "build": "node src",
+    "start": "npm run build",
+    "vscode:prepublish": "npm run build"
+  },
   "keywords": [
     "json-ld",
+    "schema",
     "schema-org",
+    "seo",
     "snippets",
     "vscode",
     "vscode-extension"
@@ -31,24 +38,28 @@
     "snippets": [
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/javascript.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/javascript.json"
       },
       {
         "language": "json",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/json.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/javascript.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/javascript.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@austinleegordon/iso-4217": "^1.0.1",
+    "bluebird": "^3.5.3"
   }
 }

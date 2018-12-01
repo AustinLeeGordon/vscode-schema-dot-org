@@ -107,7 +107,7 @@
             "\t},",
             "\t\"datePosted\": \"${5:yyyy-mm-dd}\",",
             "\t\"validThrough\": \"${6:yyyy-mm-dd}T${7:hh:mm}\",",
-            "\t\"employmentType\": \"${8|FULL_TIME,PART_TIME,CONTRACTOR,TEMPORARY,INTERN,VOLUNTEER,PER_DIEM,OTHER|}\",",
+            "\t\"employmentType\": \"${8|<%employmentType%>|}\",",
             "\t\"hiringOrganization\": {",
             "\t\t\"@type\": \"Organization\",",
             "\t\t\"name\": \"${9:hiring-organization-name}\",",
@@ -127,7 +127,7 @@
             "\t},",
             "\"baseSalary\": {",
             "\t\t\"@type\": \"MonetaryAmount\",",
-            "\t\t\"currency\": \"${17:USD}\",",
+            "\t\t\"currency\": \"${17|<%currencyCodes%>|}\",",
             "\t\t\"value\": {",
             "\t\t\t\"@type\": \"QuantitativeValue\",",
             "\t\t\t\"value\": \"${18:value}\",",
@@ -161,7 +161,7 @@
             "\t\t\"@type\": \"AggregateOffer\",",
             "\t\t\"lowPrice\": \"${6:low-price}\",",
             "\t\t\"highPrice\": \"${7:high-price}\",",
-            "\t\t\"priceCurrency\": \"${8:USD}\",",
+            "\t\t\"priceCurrency\": \"${8|<%currencyCodes%>|}\",",
             "\t\t\"offerCount\": \"${9:offer-count}\",",
             "\t}",
             "}"
@@ -191,10 +191,10 @@
             "\t},",
             "\t\"offers\": {",
             "\t\t\"@type\": \"Offer\",",
-            "\t\t\"priceCurrency\": \"${9:USD}\",",
+            "\t\t\"priceCurrency\": \"${9|<%currencyCodes%>|}\",",
             "\t\t\"price\": \"${10:price}\",",
             "\t\t\"priceValidUntil\": \"${11:yyyy-mm-dd}\",",
-            "\t\t\"itemCondition\": \"https://schema.org/${12|DamagedCondition,NewCondition,RefurbishedCondition,UsedCondition|}\",",
+            "\t\t\"itemCondition\": \"https://schema.org/${12|<%itemCondition%>|}\",",
             "\t\t\"availability\": \"https://schema.org/${13|Discontinued,InStock,InStoreOnly,LimitedAvailability,OnlineOnly,OutOfStock,PreOrder,PreSale,SoldOut|}\",",
             "\t\t\"seller\": {",
             "\t\t\t\"@type\": \"Organization\",",
@@ -280,15 +280,6 @@
             "\t\t${30:Type 'video-schema' and hit 'tab' or 'enter'}",
             "\t]",
             "}"
-        ]
-    },
-    "Script JSON-LD": {
-        "prefix": "script-json-ld",
-        "description": "Script JSON-LD",
-        "body": [
-            "<script type=\"application/ld+json\">",
-            "\t$0",
-            "</script>"
         ]
     },
     "Sitelinks Searchbox Schema": {

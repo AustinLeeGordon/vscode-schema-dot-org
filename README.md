@@ -32,10 +32,6 @@ Type part of a snippet and press `enter` or `tab`. If tab completion is disabled
 | `sitelinks-searchbox-schema` | Sitelinks Searchbox Schema ([Google](https://developers.google.com/search/docs/data-types/sitelinks-searchbox), [Schema.org](https://schema.org/WebSite)) |
 | `video-schema` | Video Schema ([Google](https://developers.google.com/search/docs/data-types/video), [Schema.org](https://schema.org/VideoObject)) |
 
-## Authors
-
-* **Austin Gordon** - *Development* - [GitHub](https://github.com/AustinLeeGordon)
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+MIT © [Austin Gordon](https://www.austinleegordon.com)

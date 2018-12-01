@@ -1,3 +1,11 @@
+<a name="2.0.0"></a>
+
+## 2.0.0 (2018-12-1)
+
+* Separated javascript and json snippets
+* Changed project to use a build system instead of static `.json` files
+* Built a template style for injecting variables (such as ISO 4217 currency codes) on build
+
 <a name="1.0.6"></a>
 
 ## 1.0.6 (2018-10-17)
