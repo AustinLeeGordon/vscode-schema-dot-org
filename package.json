@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@austinleegordon/iso-4217": "^1.0.1",
-    "bluebird": "^3.5.3",
+    "bluebird": "^3.5.5",
     "i18n-iso-countries": "^3.7.8",
     "jest": "^23.6.0",
     "jsonlint": "^1.6.3"
